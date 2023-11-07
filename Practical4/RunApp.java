@@ -26,6 +26,7 @@ public class RunApp{
             }
             catch(InputMismatchException e){
                 System.out.println("Invalid input");
+                input.nextLine();
             }
             catch(ArithmeticException e){
                 System.out.println("Division by zero");
